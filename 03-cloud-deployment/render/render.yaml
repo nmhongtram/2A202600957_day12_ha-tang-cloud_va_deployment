@@ -42,10 +42,10 @@ services:
   # ──────────────────────────────────────
   # Redis (dùng Render Redis add-on)
   # ──────────────────────────────────────
-  - type: redis
-    name: agent-cache
-    plan: free
-    maxmemoryPolicy: allkeys-lru
+  # - type: redis
+  #   name: agent-cache
+  #   plan: free
+  #   maxmemoryPolicy: allkeys-lru
 
 # ============================================================
 # Cách deploy:
